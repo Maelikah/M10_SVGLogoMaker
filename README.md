@@ -128,6 +128,7 @@ The purpose of this repository is to apply the concepts reviewed during the week
 - https://www.w3.org/wiki/CSS/Properties/color/keywords
 - https://regexr.com/3ag5b
 - https://en.wikipedia.org/wiki/SVG
+- https://www.w3schools.com/graphics/tryit.asp?
 - https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide
 
 </br>
