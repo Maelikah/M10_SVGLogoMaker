@@ -126,6 +126,7 @@ The purpose of this repository is to apply the concepts reviewed during the week
 - https://jestjs.io/
 - https://emojipedia.org/
 - https://www.w3.org/wiki/CSS/Properties/color/keywords
+- https://regexr.com/3ag5b
 - https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide
 
 </br>
