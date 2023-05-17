@@ -120,10 +120,12 @@ The purpose of this repository is to apply the concepts reviewed during the week
 - https://shields.io/category/license
 - https://github.com/devicons/devicon/tree/master/icons
 - https://www.npmjs.com/package/inquirer
+- https://www.npmjs.com/package/inquirer#answers
 - https://nodejs.org/en/docs
 - https://nodejs.org/api/fs.html
 - https://jestjs.io/
 - https://emojipedia.org/
+- https://www.w3.org/wiki/CSS/Properties/color/keywords
 - https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide
 
 </br>
