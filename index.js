@@ -1,22 +1,11 @@
 const inquirer = require("inquirer");
-// const fs = require("fs");
-// const path = require("path");
 const questions = require("./lib/questions");
 const answers = require("./lib/answers");
 const processAnswers = require("./lib/answers");
 
-// const namedColors = require("./lib/namedColors");
-// const shape = require("./lib/shape");
-// const Circle = require("./lib/Circle");
-// const Square = require("./lib/Square");
-// const Triangle = require("./lib/Triangle");
-// const InvTriange = require("./lib/InvTriangle");
-// const Ellipse = require("./lib/Ellipse");
-
 console.log("\n");
 console.log("Welcome to the SVG Logo Generator!");
 console.log("Please provide the following information:");
-
 
 inquirer
 
