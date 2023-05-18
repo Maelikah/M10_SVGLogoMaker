@@ -92,6 +92,30 @@ The purpose of this repository is to apply the concepts reviewed during the week
 
 </br>
 
+The github URL containing the code for this project is located at:
+
+https://github.com/Maelikah/M10_SVGLogoMaker
+
+</br>
+
+Code Functionality:
+
+![Code Generation Walkthrough Preview](./assets/Code-Walkthrough.gif)
+
+</br>
+
+User Input Functionality:
+
+![User Input Walkthrough Preview](./assets/Code-Walkthrough.gif)
+
+</br>
+
+Tests Functionality:
+
+![Tests Walkthrough Preview](./assets/Code-Walkthrough.gif)
+
+</br>
+
 
 ---
 
