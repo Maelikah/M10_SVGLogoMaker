@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const fileName = `"./examples/logo.svg"`
+const fileName = "./examples/logo-.svg";
 const questions = require("./lib/questions");
 const createLogo = require("./lib/createLogo");
 const namedColors = require("./lib/namedColors");
@@ -120,6 +120,8 @@ inquirer
 
     let chosenTextColor;
     let chosenShapeColor;
+    let renderedLogo;
+    
 
     if (answers.textcolorChoice === "Color Name") {
         chosenTextColor = answers.textcolorName;
@@ -138,50 +140,56 @@ inquirer
         case "Circle": 
 
             chosenShape = new Circle (answers.logoName, chosenTextColor, chosenShapeColor)
-            const renderedLogo = chosenShape.renderLogo();
+            renderedLogo = chosenShape.renderLogo();
             console.log("The chosen shape is: " , chosenShape);
             console.log("the chosenShape render is:" , chosenShape.renderLogo())
-            return chosenShape.renderLogo()
             break;
         
         case "Square": 
 
             chosenShape = new Square (answers.logoName, chosenTextColor, chosenShapeColor)
+            renderedLogo = chosenShape.renderLogo();
             console.log("The chosen shape is: " , chosenShape);
             console.log("the chosenShape render is:" , chosenShape.renderLogo())
-            return chosenShape.renderLogo()
-            break; 
-    
+            break;
+
         case "Triangle": 
 
             chosenShape = new Triangle (answers.logoName, chosenTextColor, chosenShapeColor)
+            renderedLogo = chosenShape.renderLogo();
             console.log("The chosen shape is: " , chosenShape);
             console.log("the chosenShape render is:" , chosenShape.renderLogo())
-            return chosenShape.renderLogo()
             break;
 
         case "InvTriange": 
 
             chosenShape = new InvTriangle (answers.logoName, chosenTextColor, chosenShapeColor)
+            renderedLogo = chosenShape.renderLogo();
             console.log("The chosen shape is: " , chosenShape);
             console.log("the chosenShape render is:" , chosenShape.renderLogo())
-            return chosenShape.renderLogo()
             break;
         
         case "Ellipse": 
 
             chosenShape = new Ellipse (answers.logoName, chosenTextColor, chosenShapeColor)
+            renderedLogo = chosenShape.renderLogo();
             console.log("The chosen shape is: " , chosenShape);
             console.log("the chosenShape render is:" , chosenShape.renderLogo())
-            return chosenShape.renderLogo()
             break; 
         
         default: 
 
             console.log("Invalid Logo Shape")
             break;
-    
     }
+
+    fs.writeFile(fileName, renderedLogo, (err) => {
+        if (err) {
+        console.log("Error writing file:", err);
+        } else {
+        console.log("Successfully generated logo:", fileName);
+        }
+    });
 })
 
 
