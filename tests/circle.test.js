@@ -1,5 +1,7 @@
+// Constructor is imported
 const Circle = require("../lib/Circle.js");
 
+// A test is created to check the logo is rendered based on input parameters
 describe ("Circle", () => {
     
     it("should render logo with input parameters of logoName, chosenTextColor, chosenShapeColor", () => {

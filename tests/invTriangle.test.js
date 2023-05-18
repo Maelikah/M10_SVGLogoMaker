@@ -1,5 +1,7 @@
+// Constructor is imported
 const InvTriangle = require("../lib/InvTriangle.js");
 
+// A test is created to check the logo is rendered based on input parameters
 describe ("InvTriangle", () => {
     
     it("should render logo with input parameters of logoName, chosenTextColor, chosenShapeColor", () => {

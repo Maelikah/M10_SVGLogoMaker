@@ -1,5 +1,7 @@
+// Constructor is imported
 const Ellipse = require("../lib/Ellipse.js");
 
+// A test is created to check the logo is rendered based on input parameters
 describe ("Ellipse", () => {
     
     it("should render logo with input parameters of logoName, chosenTextColor, chosenShapeColor", () => {

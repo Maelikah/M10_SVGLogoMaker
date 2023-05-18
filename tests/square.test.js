@@ -1,5 +1,7 @@
+// Constructor is imported
 const Square = require("../lib/Square.js");
 
+// A test is created to check the logo is rendered based on input parameters
 describe ("Square", () => {
     
     it("should render logo with input parameters of logoName, chosenTextColor, chosenShapeColor", () => {

@@ -1,5 +1,7 @@
+// Constructor is imported
 const Triangle = require("../lib/Triangle.js");
 
+// A test is created to check the logo is rendered based on input parameters
 describe ("Triangle", () => {
     
     it("should render logo with input parameters of logoName, chosenTextColor, chosenShapeColor", () => {
