@@ -1,0 +1,6 @@
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
+        <circle cx="100" cy="100" r="100" fill="CadetBlue" />
+        <text x="100" y="120" text-anchor="middle" fill="Chocolate" font-size="60">ELM</text>
+        </svg>
+        
