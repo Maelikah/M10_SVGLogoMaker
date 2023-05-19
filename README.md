@@ -106,13 +106,13 @@ Code Functionality:
 
 User Input Functionality:
 
-![User Input Walkthrough Preview](./assets/Code-Walkthrough.gif)
+![User Input Walkthrough Preview](./assets/Input-Walkthrough.gif)
 
 </br>
 
 Tests Functionality:
 
-![Tests Walkthrough Preview](./assets/Code-Walkthrough.gif)
+![Tests Walkthrough Preview](./assets/Tests-Walkthrough.gif)
 
 </br>
 
